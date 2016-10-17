@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rTG-2c-xas">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="oFt-eC-iBr">
+            <objects>
+                <navigationController id="rTG-2c-xas" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jyZ-hI-tF1"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yop-O5-JZp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wKQ-pG-ZKM" kind="relationship" relationship="rootViewController" id="7ag-xH-ohv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19X-r5-3wL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194" y="-426"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fx9-5s-VSI">
+            <objects>
+                <viewController id="wKQ-pG-ZKM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SZK-uj-IYp"/>
+                        <viewControllerLayoutGuide type="bottom" id="GgR-QW-cQg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b4U-Yv-vWn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9g-hy-NxU">
+                                <state key="normal" title="HEPageTagViewController"/>
+                                <connections>
+                                    <segue destination="IfR-a6-tmR" kind="show" id="odW-7b-sk0">
+                                        <segue key="commit" inheritsFrom="parent" id="pYd-P9-q15"/>
+                                        <segue key="preview" inheritsFrom="commit" id="h3K-f8-5sN"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieg-jn-3k7">
+                                <state key="normal" title="HESegmentedViewController"/>
+                                <connections>
+                                    <segue destination="TLH-a6-hcO" kind="show" id="Lmk-J4-5OF">
+                                        <segue key="commit" inheritsFrom="parent" id="LzD-75-7DC"/>
+                                        <segue key="preview" inheritsFrom="commit" id="nwk-eV-Jk2"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ieg-jn-3k7" firstAttribute="centerY" secondItem="b4U-Yv-vWn" secondAttribute="centerY" id="LBr-FG-Ocp"/>
+                            <constraint firstItem="Ieg-jn-3k7" firstAttribute="top" secondItem="d9g-hy-NxU" secondAttribute="bottom" constant="20" id="OyD-so-Jk1"/>
+                            <constraint firstItem="Ieg-jn-3k7" firstAttribute="centerX" secondItem="b4U-Yv-vWn" secondAttribute="centerX" id="VbR-bD-tRx"/>
+                            <constraint firstItem="d9g-hy-NxU" firstAttribute="centerX" secondItem="Ieg-jn-3k7" secondAttribute="centerX" id="YCr-Is-ot8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z8l-5S-eaG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s2b-A4-vyf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="-427"/>
+        </scene>
+        <!--Page Tag View Controller-->
+        <scene sceneID="BjR-9A-EeS">
+            <objects>
+                <viewController id="IfR-a6-tmR" customClass="PageTagViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mc7-6v-wXm"/>
+                        <viewControllerLayoutGuide type="bottom" id="lvJ-nB-qB0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iVk-L9-lpL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDg-0B-XpZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="-545"/>
+        </scene>
+        <!--Segmented View Controller-->
+        <scene sceneID="7b8-k0-OAt">
+            <objects>
+                <viewController id="TLH-a6-hcO" customClass="SegmentedViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jj0-OZ-IFU"/>
+                        <viewControllerLayoutGuide type="bottom" id="a2Z-Cq-4sh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fX3-uI-1Ew">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NgX-hD-bOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="129"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="odW-7b-sk0"/>
+        <segue reference="Lmk-J4-5OF"/>
+    </inferredMetricsTieBreakers>
+</document>

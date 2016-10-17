@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F67FE9C1DB4CF710052E406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FE9B1DB4CF710052E406 /* main.m */; };
+		8F67FE9F1DB4CF710052E406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FE9E1DB4CF710052E406 /* AppDelegate.m */; };
+		8F67FEA51DB4CF710052E406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F67FEA31DB4CF710052E406 /* Main.storyboard */; };
+		8F67FEA71DB4CF710052E406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F67FEA61DB4CF710052E406 /* Assets.xcassets */; };
+		8F67FEAA1DB4CF710052E406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F67FEA81DB4CF710052E406 /* LaunchScreen.storyboard */; };
+		8F67FECB1DB4D0050052E406 /* HEPageTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FEC31DB4D0050052E406 /* HEPageTagViewController.m */; };
+		8F67FECC1DB4D0050052E406 /* HESegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FEC51DB4D0050052E406 /* HESegmentedViewController.m */; };
+		8F67FECD1DB4D0050052E406 /* SMPagerTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FEC81DB4D0050052E406 /* SMPagerTabView.m */; };
+		8F67FECE1DB4D0050052E406 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FECA1DB4D0050052E406 /* UIViewAdditions.m */; };
+		8F67FED11DB4D4090052E406 /* PageTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FED01DB4D4090052E406 /* PageTagViewController.m */; };
+		8F67FED41DB4D41C0052E406 /* SegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F67FED31DB4D41C0052E406 /* SegmentedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F67FE971DB4CF710052E406 /* HEPageTagViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEPageTagViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F67FE9B1DB4CF710052E406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F67FE9D1DB4CF710052E406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F67FE9E1DB4CF710052E406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F67FEA41DB4CF710052E406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F67FEA61DB4CF710052E406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F67FEA91DB4CF710052E406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F67FEAB1DB4CF710052E406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F67FEC21DB4D0050052E406 /* HEPageTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEPageTagViewController.h; sourceTree = "<group>"; };
+		8F67FEC31DB4D0050052E406 /* HEPageTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEPageTagViewController.m; sourceTree = "<group>"; };
+		8F67FEC41DB4D0050052E406 /* HESegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESegmentedViewController.h; sourceTree = "<group>"; };
+		8F67FEC51DB4D0050052E406 /* HESegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESegmentedViewController.m; sourceTree = "<group>"; };
+		8F67FEC71DB4D0050052E406 /* SMPagerTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPagerTabView.h; sourceTree = "<group>"; };
+		8F67FEC81DB4D0050052E406 /* SMPagerTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPagerTabView.m; sourceTree = "<group>"; };
+		8F67FEC91DB4D0050052E406 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		8F67FECA1DB4D0050052E406 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		8F67FECF1DB4D4090052E406 /* PageTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTagViewController.h; sourceTree = "<group>"; };
+		8F67FED01DB4D4090052E406 /* PageTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTagViewController.m; sourceTree = "<group>"; };
+		8F67FED21DB4D41C0052E406 /* SegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedViewController.h; sourceTree = "<group>"; };
+		8F67FED31DB4D41C0052E406 /* SegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F67FE941DB4CF710052E406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F67FE8E1DB4CF710052E406 = {
+			isa = PBXGroup;
+			children = (
+				8F67FE991DB4CF710052E406 /* HEPageTagViewControllerDemo */,
+				8F67FE981DB4CF710052E406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F67FE981DB4CF710052E406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F67FE971DB4CF710052E406 /* HEPageTagViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F67FE991DB4CF710052E406 /* HEPageTagViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F67FEC11DB4D0050052E406 /* HEPageTagViewController */,
+				8F67FE9D1DB4CF710052E406 /* AppDelegate.h */,
+				8F67FE9E1DB4CF710052E406 /* AppDelegate.m */,
+				8F67FECF1DB4D4090052E406 /* PageTagViewController.h */,
+				8F67FED01DB4D4090052E406 /* PageTagViewController.m */,
+				8F67FED21DB4D41C0052E406 /* SegmentedViewController.h */,
+				8F67FED31DB4D41C0052E406 /* SegmentedViewController.m */,
+				8F67FEA31DB4CF710052E406 /* Main.storyboard */,
+				8F67FEA61DB4CF710052E406 /* Assets.xcassets */,
+				8F67FEA81DB4CF710052E406 /* LaunchScreen.storyboard */,
+				8F67FEAB1DB4CF710052E406 /* Info.plist */,
+				8F67FE9A1DB4CF710052E406 /* Supporting Files */,
+			);
+			path = HEPageTagViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		8F67FE9A1DB4CF710052E406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F67FE9B1DB4CF710052E406 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F67FEC11DB4D0050052E406 /* HEPageTagViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F67FEC21DB4D0050052E406 /* HEPageTagViewController.h */,
+				8F67FEC31DB4D0050052E406 /* HEPageTagViewController.m */,
+				8F67FEC41DB4D0050052E406 /* HESegmentedViewController.h */,
+				8F67FEC51DB4D0050052E406 /* HESegmentedViewController.m */,
+				8F67FEC61DB4D0050052E406 /* SMPagerTabView */,
+			);
+			name = HEPageTagViewController;
+			path = ../../HEPageTagViewController;
+			sourceTree = "<group>";
+		};
+		8F67FEC61DB4D0050052E406 /* SMPagerTabView */ = {
+			isa = PBXGroup;
+			children = (
+				8F67FEC71DB4D0050052E406 /* SMPagerTabView.h */,
+				8F67FEC81DB4D0050052E406 /* SMPagerTabView.m */,
+				8F67FEC91DB4D0050052E406 /* UIViewAdditions.h */,
+				8F67FECA1DB4D0050052E406 /* UIViewAdditions.m */,
+			);
+			path = SMPagerTabView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F67FE961DB4CF710052E406 /* HEPageTagViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F67FEAE1DB4CF710052E406 /* Build configuration list for PBXNativeTarget "HEPageTagViewControllerDemo" */;
+			buildPhases = (
+				8F67FE931DB4CF710052E406 /* Sources */,
+				8F67FE941DB4CF710052E406 /* Frameworks */,
+				8F67FE951DB4CF710052E406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HEPageTagViewControllerDemo;
+			productName = HEPageTagViewControllerDemo;
+			productReference = 8F67FE971DB4CF710052E406 /* HEPageTagViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F67FE8F1DB4CF710052E406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Hackice;
+				TargetAttributes = {
+					8F67FE961DB4CF710052E406 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W5L6Y9RPYG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F67FE921DB4CF710052E406 /* Build configuration list for PBXProject "HEPageTagViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F67FE8E1DB4CF710052E406;
+			productRefGroup = 8F67FE981DB4CF710052E406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F67FE961DB4CF710052E406 /* HEPageTagViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F67FE951DB4CF710052E406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F67FEAA1DB4CF710052E406 /* LaunchScreen.storyboard in Resources */,
+				8F67FEA71DB4CF710052E406 /* Assets.xcassets in Resources */,
+				8F67FEA51DB4CF710052E406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F67FE931DB4CF710052E406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F67FECB1DB4D0050052E406 /* HEPageTagViewController.m in Sources */,
+				8F67FED11DB4D4090052E406 /* PageTagViewController.m in Sources */,
+				8F67FECE1DB4D0050052E406 /* UIViewAdditions.m in Sources */,
+				8F67FED41DB4D41C0052E406 /* SegmentedViewController.m in Sources */,
+				8F67FE9F1DB4CF710052E406 /* AppDelegate.m in Sources */,
+				8F67FECC1DB4D0050052E406 /* HESegmentedViewController.m in Sources */,
+				8F67FECD1DB4D0050052E406 /* SMPagerTabView.m in Sources */,
+				8F67FE9C1DB4CF710052E406 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F67FEA31DB4CF710052E406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F67FEA41DB4CF710052E406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F67FEA81DB4CF710052E406 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F67FEA91DB4CF710052E406 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F67FEAC1DB4CF710052E406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F67FEAD1DB4CF710052E406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F67FEAF1DB4CF710052E406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W5L6Y9RPYG;
+				INFOPLIST_FILE = HEPageTagViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.hackice.HEPageTagViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F67FEB01DB4CF710052E406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W5L6Y9RPYG;
+				INFOPLIST_FILE = HEPageTagViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.hackice.HEPageTagViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F67FE921DB4CF710052E406 /* Build configuration list for PBXProject "HEPageTagViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F67FEAC1DB4CF710052E406 /* Debug */,
+				8F67FEAD1DB4CF710052E406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F67FEAE1DB4CF710052E406 /* Build configuration list for PBXNativeTarget "HEPageTagViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F67FEAF1DB4CF710052E406 /* Debug */,
+				8F67FEB01DB4CF710052E406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F67FE8F1DB4CF710052E406 /* Project object */;
+}
