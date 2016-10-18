@@ -5,7 +5,8 @@ A ViewController( you can also just use the view) with tag in UIScrollView.
 ## Usage
 Use this method in -(void)viewDidload;(PageTag) or - (void)loadView;(Segmented)
 ```
-- (void)addChildViewController:(UIViewController *)childController Title:(NSString *)title;```
+- (void)addChildViewController:(UIViewController *)childController Title:(NSString *)title;
+```
 
 
 ## Sample
